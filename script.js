@@ -6,3 +6,4 @@ function burgerFunction() {
     x.className = 'navbar';
   }
 }
+
