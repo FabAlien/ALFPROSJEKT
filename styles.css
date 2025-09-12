@@ -101,6 +101,10 @@ main {
   color: white;
 }
 
+#articleList a:hover {
+  color: red;
+}
+
 #articleViewer {
   padding-top: 10vh;
   width: 90vw;
