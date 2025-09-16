@@ -21,6 +21,10 @@
 #actionControls {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-areas: 
+    "actionButton0 actionButton1"
+    "actionButton2 actionButton3";
     background-color: #ddd;
     border-top: solid 2px #333;
   }
@@ -31,19 +35,19 @@
   }
 
   #actionButton0 {
-
+    grid-area: actionButton0;
   }
 
-  #actionButton1 {
-
+  #actionButton1 { 
+    grid-area: actionButton1;
   }
 
   #actionButton2 {
-
+    grid-area: actionButton2;
   }
 
   #actionButton3 {
-
+    grid-area: actionButton3;
   }
 
   #inventoryView {
