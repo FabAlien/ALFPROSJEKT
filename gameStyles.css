@@ -35,25 +35,32 @@
   display: flex;
   flex-direction: column;
   border-bottom: solid 2px #ddd;
-  padding-bottom: 1vh;
-}
-
-#healthOverview {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-#statOverview {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
-#apOverview {
-  display: flex;
-  justify-content: space-evenly;
+#viewStats h2 {
+  border-bottom: dashed 2px #ddd;
   width: 100%;
+  text-align: center;
+  padding-bottom: 1vh;
+}
+
+#healthConsumablesOverview {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  text-align: center;
+  border-bottom: solid 2px #ddd;
+}
+
+#spellslotView {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  text-align: center;
+  border-bottom: solid 2px #ddd;
 }
 
 #openStatScreen {
@@ -63,6 +70,8 @@
   text-align: center;
   text-decoration: none;
   color: #ddd;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 #openStatScreen:hover {
@@ -115,8 +124,29 @@
     grid-area: actionButton3;
   }
 
-  #inventoryView {
-    grid-column: 3 / 4;
-    grid-row: 1 / 3;
-    background-color: #333;
+#inventoryView {
+  padding-top: 3vh;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  background-color: #333;
+  font-size: larger;
+}
+
+  #inventoryView h2{
+    border-bottom: solid 2px #ddd;
+  }
+
+  .equipmentCardLayout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .equipmentCard {
+    display: flex;
+    border: solid 2px #ddd;
+    border-radius: 8px;
+  }
+
+  .equipmentCard div {
+    font-size: 3rem;
   }

@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css">
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="gameStyles.css">
     <script src="script.js" defer></script>
@@ -37,18 +38,26 @@
           </div>
 
           <div id="viewStats">
-            <div id="healthOverview">
+            <div id="healthConsumablesOverview">
               <p>Health</p>
               <p>[67/72]</p>
+              <p>Action Points</p>
+              <p>[4/4]</p>
             </div>
 
-            <div id="statOverview">
-              <div id="apOverview">
-                <p>Action Points</p>
-                <p>[4/4]</p>
-              </div>
-              <a href="#" id="openStatScreen"><div><p>Open Stats</p></div></a>
+            <h2>Spell Slots</h2>
+            <div id="spellslotView">
+              <p>Level 1</p>
+              <p>[4/4]</p>
+              <p>Level 2</p>
+              <p>[3/3]</p>
+              <p>Level 3</p>
+              <p>[2/2]</p>
+              <p>Level 4</p>
+              <p>[1/1]</p>
             </div>
+
+            <a href="#" id="openStatScreen"><div><p>Open Stats</p></div></a>
 
           </div>
 
@@ -61,6 +70,22 @@
         </section>
 
         <section id="inventoryView">
+
+          <h2>Equipment</h2>
+
+          <section id="equipmentCardLayout">
+
+            <div class="equipmentCard">
+              <div><i class="bx  bx-sword-alt" class="equipmentIcons"></i></div>
+              <p>Cells Interlinked</p>
+            </div>
+
+            <div class="equipmentCard">
+              <div><i class="bx  bx-helmet" class="equipmentIcons"></i></div>
+              <p>Helmet of Goon</p>
+            </div>
+
+          </section>
 
         </section>
 
