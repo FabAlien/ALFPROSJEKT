@@ -1,23 +1,53 @@
-#characterView {
-    background-color: cyan;
-    width: 20vw;
+#firstRealityGame {
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+    grid-template-rows: 70vh 30vh;
     height: 100vh;
+    width: 100vw;
+}
+
+#characterView {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: #333;
 }
 
 #actionView {
-    background-color: magenta;
-    width: 60vw;
-    height: 70vh;
-}
-
-#inventoryView {
-    background-color: yellow;
-    width: 20vw;
-    height: 100vh;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #6d6d6d;
 }
 
 #actionControls {
-    background-color: black;
-    width: 60vw;
-    height: 30vh;
-}
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #ddd;
+    border-top: solid 2px #333;
+  }
+
+  .actionButton {
+    background-color: #333;
+    color: #ddd;
+  }
+
+  #actionButton0 {
+
+  }
+
+  #actionButton1 {
+
+  }
+
+  #actionButton2 {
+
+  }
+
+  #actionButton3 {
+
+  }
+
+  #inventoryView {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    background-color: #333;
+  }
