@@ -1,0 +1,23 @@
+#characterView {
+    background-color: cyan;
+    width: 20vw;
+    height: 100vh;
+}
+
+#actionView {
+    background-color: magenta;
+    width: 60vw;
+    height: 70vh;
+}
+
+#inventoryView {
+    background-color: yellow;
+    width: 20vw;
+    height: 100vh;
+}
+
+#actionControls {
+    background-color: black;
+    width: 60vw;
+    height: 30vh;
+}
