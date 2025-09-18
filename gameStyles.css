@@ -90,11 +90,31 @@
 #subjectOverview {
   height: 70%;
   width: 100%;
+  background-color: red;
+}
+
+#subjectCard {
+  width: 40%;
+  height: 80%;
+  background-color: white;
+}
+
+#subjectIcon {
+
+}
+
+#subjectName {
+
+}
+
+#subjectHealth {
+
 }
 
 #textScreen {
   height: 30%;
   width: 100%;
+  background-color: blue;
 }
 
 #actionControls {
