@@ -81,7 +81,20 @@
 #actionView {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    padding-top: 5vh;
     background-color: #6d6d6d;
+    display: flex;
+    flex-direction: column;
+}
+
+#subjectOverview {
+  height: 70%;
+  width: 100%;
+}
+
+#textScreen {
+  height: 30%;
+  width: 100%;
 }
 
 #actionControls {
@@ -139,7 +152,6 @@
   #equipmentCardLayout {
     display: flex;
     flex-direction: column;
-    height: 100%;
     align-items: center;
   }
 
