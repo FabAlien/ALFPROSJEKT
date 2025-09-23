@@ -11,7 +11,7 @@ function burgerFunction() {
 
 
 async function getArticle() {
-  const response = await fetch("articles.json");
+  const response = await fetch("/jsonRepository/articles.json");
   const data = await response.json();
   return data;
 }
